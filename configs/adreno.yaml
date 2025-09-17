@@ -1,0 +1,3 @@
+inherit: default.yaml
+fps: 15
+retrain_period_s: 30

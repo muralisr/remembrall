@@ -3,6 +3,9 @@
 This repository is a **reference implementation** for Remembrall-style on-device continuous learning on SoC GPUs.
 It avoids heavyweight training code and external data; the interfaces are ready to integrate with PyTorch / ExecuTorch and your models.
 
+## Dataset
+https://docs.google.com/document/d/15FiLlPQlZUI5PWZUTgrg7VDW4NHZY_NCc4bpYk7qgXs/edit?tab=t.0
+
 ## Features
 - **Base + Specialized models** loaded simultaneously (memory-for-compute tradeoff)
 - **Embedding-guided sampling** (dedup via online SCPS-style selection; top-k uncertainty via entropy)

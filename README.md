@@ -1,9 +1,6 @@
-# Remembrall (Starter Kit)
+# Remembrall
 
-This repository is a **reference implementation and scaffold** for Remembrall-style on-device continuous learning on SoC GPUs.
-It includes well-documented, modular Python code and markdown docs so you can adapt it to your hardware and models.
-
-> **Note:** This is a *lightweight* educational/reference codebase designed to match the paper's design.
+This repository is a **reference implementation** for Remembrall-style on-device continuous learning on SoC GPUs.
 It avoids heavyweight training code and external data; the interfaces are ready to integrate with PyTorch / ExecuTorch and your models.
 
 ## Features
